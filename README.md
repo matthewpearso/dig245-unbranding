@@ -57,11 +57,11 @@ See Moodle.
 
 ### Inspiration
 
-- Chapter [examples](https://omundy.github.io/critical-web-design-book/#chapter-3-critical-design): 
-[Time](https://omundy.github.io/critical-web-design-book/03-critical-design/examples/ikea-time/), 
-[Monopoly](https://omundy.github.io/critical-web-design-book/03-critical-design/examples/adobe-monopoly)
+- Chapter [examples](https://criticalwebdesign.github.io/book/#chapter-3-critical-design): 
+[Time](https://criticalwebdesign.github.io/book/03-critical-design/examples/ikea-time/), 
+[Monopoly](https://criticalwebdesign.github.io/book/03-critical-design/examples/adobe-monopoly)
 
-See the [Critical Web Design Index](https://omundy.github.io/critical-web-design-index/) for examples tagged with [#subvertisement](https://omundy.github.io/critical-web-design-index#subvertisement) or [#culture jam](https://omundy.github.io/critical-web-design-index#culture%20jam), including...
+See the [Critical Web Design Index](https://criticalwebdesign.github.io/index) for examples tagged with [#subvertisement](https://criticalwebdesign.github.io/index#subvertisement) or [#culture jam](https://criticalwebdesign.github.io/index#culture-jam), including...
 
 - MSCHF [onlybags.biz](https://onlybags.biz) (2022), [eattherichpopsicles.com](https:/eattherichpopsicles.com) (2022), [cdgrandprix.com](https:/cdgrandprix.com) (2022) 
 - Dan Kurtz [Binky](https://binky.rocks) (2017)
