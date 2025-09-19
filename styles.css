@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
-  
+  display: flex-start;
   color: white;
   font-family: sans-serif;
   overflow: hidden;
@@ -25,4 +25,14 @@ body {
   100% {
     background-position: 50% 50%, 70% 80%, 30% 30%, center;
   }
+}
+
+.square{
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    background-color: white;
+    border-radius: 10%;
+    padding: 20px;
+    color: black;
 }
