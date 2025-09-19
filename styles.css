@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  height: 100vh;
+  
+  color: white;
+  font-family: sans-serif;
+  overflow: hidden;
+
+  /* Multiple radial gradients blended together */
+  background: radial-gradient(circle at 20% 20%, #232f3e, transparent 70%),
+              radial-gradient(circle at 80% 30%, #146eb4, transparent 70%),
+              radial-gradient(circle at 50% 80%, #ff9900, transparent 70%),
+              #000; /* fallback base */
+  background-size: 200% 200%;
+  animation: moveGradients 10s ease-in-out infinite alternate;
+}
+
+@keyframes moveGradients {
+  0% {
+    background-position: 20% 20%, 80% 30%, 50% 80%, center;
+  }
+  50% {
+    background-position: 80% 80%, 20% 50%, 70% 20%, center;
+  }
+  100% {
+    background-position: 50% 50%, 70% 80%, 30% 30%, center;
+  }
+}
