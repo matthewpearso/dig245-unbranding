@@ -1,15 +1,18 @@
 body {
   margin: 0;
-  height: 100vh;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   color: white;
   font-family: sans-serif;
-  overflow: hidden;
+  overflow-y: auto;
 
-  /* Multiple radial gradients blended together */
   background: radial-gradient(circle at 20% 20%, #232f3e, transparent 70%),
               radial-gradient(circle at 80% 30%, #146eb4, transparent 70%),
               radial-gradient(circle at 50% 80%, #ff9900, transparent 70%),
-              #000; /* fallback base */
+              #000;
   background-size: 200% 200%;
   animation: moveGradients 10s ease-in-out infinite alternate;
 }
@@ -26,12 +29,48 @@ body {
   }
 }
 
+.squares-container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 80vh; 
+    gap: 20px;
+}
+
 .square{
     width: 300px;
     height: 300px;
-    margin: 50px;
+    margin: 35px;
     background-color: white;
     border-radius: 10%;
     padding: 20px;
     color: black;
+}
+
+@font-face {
+  font-family: 'Amazon Ember Display';
+    src: url('assets/ember-fonts/Ember Display/AmazonEmberDisplay_Rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hero-container{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.hero-maintext{
+    font-family: 'Amazon Ember Display', sans-serif;
+    font-size: 48px;
+    margin: 20px;
+}
+
+.hero-subtext{
+    font-family: 'Amazon Ember Display', sans-serif;
+    font-size: 24px;
+    margin: 20px;
 }
