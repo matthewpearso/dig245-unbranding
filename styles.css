@@ -5,16 +5,16 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  color: white;
+  color: #161d26;
   font-family: sans-serif;
   overflow-y: auto;
 
-  background: radial-gradient(circle at 20% 20%, #232f3e, transparent 70%),
-              radial-gradient(circle at 80% 30%, #146eb4, transparent 70%),
-              radial-gradient(circle at 50% 80%, #ff9900, transparent 70%),
-              #000;
+  background: radial-gradient(circle at 20% 20%, #d2a054, transparent 70%),
+              radial-gradient(circle at 80% 30%, #2692e5, transparent 70%),
+              radial-gradient(circle at 50% 80%, #9276b3, transparent 70%),
+              #ffffff;
   background-size: 200% 200%;
-  animation: moveGradients 10s ease-in-out infinite alternate;
+  animation: moveGradients 7s ease-in-out infinite alternate;
 }
 
 @keyframes moveGradients {
@@ -33,18 +33,30 @@ body {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    height: 80vh; 
+    margin: 10px;
+    height: 60vh; 
     gap: 20px;
+    font-family: 'Amazon Ember Display', sans-serif;
+    color: #161d26;
 }
 
 .square{
+    font-size: 25px;
+    text-align: center;
     width: 300px;
-    height: 300px;
+    height: 200px;
     margin: 35px;
     background-color: white;
-    border-radius: 10%;
-    padding: 20px;
-    color: black;
+    border-radius: 30px;
+    padding: 30px;
+    color: #161d26;
+}
+
+.square-subtext{
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 5px;
 }
 
 @font-face {
@@ -74,3 +86,37 @@ body {
     font-size: 24px;
     margin: 20px;
 }
+
+.left-button{
+    font-family: 'Amazon Ember Display', sans-serif;
+    font-size: 15px;
+    background-color: #161d26;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.right-button{
+    font-family: 'Amazon Ember Display', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: #161d26;
+    border: 2px solid #161d26;
+    border-radius: 30px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
